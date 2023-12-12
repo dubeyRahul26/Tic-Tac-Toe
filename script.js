@@ -65,13 +65,10 @@ const showWinner = (winner) => {
     msgBox.style.display = "block" ;
     disableBtns() ;
     resetBtn.style.display = "none" ;
-    // msgBox.classList.remove("hide") ;
 };
 
 const checkWinner = () =>{
     for(pattern of winPatterns){
-        
-        
         let pos1Val = btns[pattern[0]].innerText ;
         let pos2Val = btns[pattern[1]].innerText ;
         let pos3Val = btns[pattern[2]].innerText ;
