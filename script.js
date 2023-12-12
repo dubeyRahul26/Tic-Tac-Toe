@@ -71,8 +71,6 @@ const showWinner = (winner) => {
 const checkWinner = () =>{
     for(pattern of winPatterns){
         
-        // console.log(pattern[0] , pattern[1] , pattern[2]);
-        // console.log(btns[pattern[0]] ,btns[pattern[2]],btns[pattern[2]]);
         
         let pos1Val = btns[pattern[0]].innerText ;
         let pos2Val = btns[pattern[1]].innerText ;
